@@ -26,7 +26,7 @@ def do_dota_stuff():
     global botStatus
     botStatus = "Online"
     dota.create_practice_lobby(password=lobbyPass, options={'game_name': lobbyName, "game_mode": lobbyMode})
-    dota.invite_to_lobby(steam_id=76561198141995108)
+    dota.invite_to_lobby(steam_id=STEAMID)
 
 window = tk.Tk()
 window.geometry("200x400")
@@ -54,7 +54,7 @@ def buttonInviteMember_Click(event):
     dota.invite_to_lobby(int(entryInviteMember.get()))
 
 def buttonLogin_Click(event):
-    client.cli_login(username="wiusTheBest", password="9089241034Varav")
+    client.cli_login(username="LOGIN", password="PASS")
     client.run_forever()
 
 buttonLogin.bind("<Button-1>", buttonLogin_Click)
