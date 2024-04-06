@@ -5,11 +5,11 @@ import time
 
 client = SteamClient()
 dota = Dota2Client(client)
-loginStr = "danilvarav"
-passStr = "9089241034varav"
+loginStr = "Login"
+passStr = "Pass"
 
-loginStr1 = "wiusTheBest"
-passStr1 = "9089241034Varav"
+loginStr1 = "Login"
+passStr1 = "Pass"
 
 options = {"game_name": "KSTest123", "game_mode": en.DOTA_GameMode.DOTA_GAMEMODE_CM}
 
