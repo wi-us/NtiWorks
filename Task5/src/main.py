@@ -1,7 +1,7 @@
 import commands
 import telebot
 import keyboards as kbrds
-TOKEN = 'TOKEN'
+TOKEN = '7188212020:AAGn0EdEKiGhdlwf1KZ3PtyePxAZwduvuDI'
 
 bot = telebot.TeleBot(TOKEN)
 jokes = []

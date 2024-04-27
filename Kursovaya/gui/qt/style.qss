@@ -1,0 +1,41 @@
+/* Change the background color of main window */
+
+#windowMain {
+    background-color: #3eb944;
+}
+
+/* Button for changing page at sides */
+#pushButton_PrevImage, #pushButton_NextImage {
+    border: none;
+    width: 40px;
+    height: 300px; 
+    qproperty-iconSize: 60px;
+}
+
+/* Change style when hover and press side buttons */
+#pushButton_PrevImage:hover, #pushButton_NextImage:hover {
+    border-radius: 5px;
+    border: 1px solid #777777
+}
+
+#pushButton_PrevImage:pressed {
+    padding-right: 10px;
+}
+
+#pushButton_NextImage:pressed {
+    padding-left: 10px;
+}
+
+
+#pushButton_NextImage {
+    qproperty-icon: url(NtiWorks/Kursovaya/resources/icons/white-arrow-3_right.png)
+} 
+
+#pushButton_PrevImage {
+    qproperty-icon: url(NtiWorks/Kursovaya/resources/icons/white-arrow-3_left.png)
+} 
+/*
+#widget_Photos {
+    image: url(NtiWorks/Kursovaya/resources/photos/jungle_1-1.png)
+}
+*/

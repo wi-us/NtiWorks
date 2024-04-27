@@ -109,9 +109,9 @@ def about(bot, message):
 
 def joke(jokes, bot, message):
     if len(jokes) == 0:
-        with open("serializeText//anekdots.json", "r", encoding="UTF-8") as file:
+        with open("NtiWorks//Task5//serializeText//anekdots.json", "r", encoding="UTF-8") as file:
             jokes = json.loads(file.read())
-    
+            
     _text = jokes[random.randint(0, len(jokes))]
 
     _text += "\n\n" + countSomeSymbols(_text)
